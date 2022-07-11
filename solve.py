@@ -1,7 +1,7 @@
 print("birthday problem solver")
 
-days:int = 365
-people:int = 23
+days:int = 65536
+people:int = 1341
 running_sum:float = 1
 
 for i in range(days,days-people,-1):
